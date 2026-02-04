@@ -11,4 +11,8 @@ IDEJE:
 
   6. Naglašavanje razlicitih objekata - Npr. varijabla je deblja ili ima pozadinu drukčije boje
 
-  7. 
+  7. Zoom In/Out - Kad se napravi Zoom-out, Vidis kod podjeljen u sekcije. Kad se napravi Zoom-in, vidis detalje(npr. podebljane varijable)
+
+  8. Zvuk errora - Kad napravis error, pusti se zvuk
+
+  9. Vrijeme - Ako provodiš previše vremena tipkajući ili čitajući kod, prepoznaje se i predlaže stanku od nekoliko minuta(smanjuje još daljne pogoršavanje vida)
