@@ -16,6 +16,37 @@
       {
         "command": "bolji-pogled.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "bolji-pogled.configureDiagnosticColors",
+        "title": "Configure Error/Warning Colors"
+      },
+      {
+        "command": "bolji-pogled.setErrorColor",
+        "title": "Set Error Color"
+      },
+      {
+        "command": "bolji-pogled.setWarningColor",
+        "title": "Set Warning Color"
+      },
+      {
+        "command": "bolji-pogled.resetDiagnosticColors",
+        "title": "Reset Error/Warning Colors"
+      }
+    ],
+    "configuration": {
+      "title": "bolji_pogled",
+      "properties": {
+        "bolji-pogled.errorColor": {
+          "type": "string",
+          "default": "#D81B60",
+          "description": "Hex color for errors. Use #RRGGBB or #RRGGBBAA."
+        },
+        "bolji-pogled.warningColor": {
+          "type": "string",
+          "default": "#B26A00",
+          "description": "Hex color for warnings. Use #RRGGBB or #RRGGBBAA."
+        }
       }
     ],
     "themes": [
