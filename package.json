@@ -20,7 +20,7 @@
           "id": "bolji-pogled.colorWebview",
           "name": "Color Configuration",
           "type": "webview",
-          "icon": "$(palette)"
+          "icon": "$(symbol-color)"
         }
       ]
     },
